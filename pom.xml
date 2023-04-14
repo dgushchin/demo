@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>ru.diasoft.micro</groupId>
+        <artifactId>archetype-parent</artifactId>
+        <version>2.06.08-23021001</version>
+    </parent>
+
+    <groupId>ru.diasoft.micro</groupId>
+    <artifactId>test2wsCopy-parent</artifactId>
+    <version>1.01.01-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+    <name>test2wsCopy - parent</name>
+    <url>http://www.diasoft.com</url>
+
+    <properties>
+         <archetype-bom.version>2.06.08-23021001</archetype-bom.version>
+    </properties>
+
+    <modules>
+        <module>database</module>
+        <module>service</module>
+        <module>bundle</module>
+    </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>diasoft_repo</id>
+            <url>http://maven:8080/maven2/repo/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </repository>
+    </distributionManagement>
+
+</project>

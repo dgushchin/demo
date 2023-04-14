@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+    <sysname>test2wsCopy</sysname>
+    <name>test2wsCopy</name>
+
+    <modules>
+        <module>
+            <sysname>test2wsCopy</sysname>
+        </module>
+    </modules>
+</product>
